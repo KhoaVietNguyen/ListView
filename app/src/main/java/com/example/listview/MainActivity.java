@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         setEvent();
 
         arrayList = new ArrayList<>();
+        arrayList.add("Chào bạn Trâm xinh đẹp :))");
         adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList);
         lvInfo.setAdapter(adapter);
 
